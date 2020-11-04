@@ -1,0 +1,40 @@
+body{
+    background-color: #FDFDFD;
+}
+
+/*  Header css */
+
+header{
+    background-color:#DEC19B ;
+    color: #FDFDFD;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.nav-link{
+    color: #FDFDFD !important;
+}
+
+.nav-link:hover{
+background-color:#996633;
+}
+
+
+
+
+/* Footer CSS */
+footer{
+    background-color: #DEC19B ;
+    color: #FDFDFD;
+    font-style: italic;
+    font-size: 10px;
+    padding-top: 30px;
+}
+.fa {
+    color: #FDFDFD !important;
+}
+.fa:hover{
+    background-color:#996633;
+    padding: 30%;
+}
