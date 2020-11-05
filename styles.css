@@ -16,11 +16,40 @@ header{
     color: #FDFDFD !important;
 }
 
-.nav-link:hover{
+a:hover{
 background-color:#996633;
 }
+.dropdown-menu{
+    background-color:#DEC19B ;
+    
+}
+.dropdown-item{
+    color: #FDFDFD !important;
+}
+.dropdown-item:hover{
+    background-color:#996633;
+}
+.navbar-toggler:hover{
+    background-color:#996633;
+}
+/* Main CSS */
 
-
+.imageBackground{
+    filter: blur(2px);
+    background-size: cover !;
+}
+.welcomeText{
+  color: #FDFDFD;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
 
 
 /* Footer CSS */
