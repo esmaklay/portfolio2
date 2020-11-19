@@ -32,7 +32,7 @@ background-color:#996633;
 .navbar-toggler:hover{
     background-color:#996633;
 }
-/* Main CSS */
+/* Main Home CSS */
 
 .imageBackground{
     filter: blur(2px);
@@ -50,15 +50,64 @@ background-color:#996633;
   padding: 20px;
   text-align: center;
 }
+/* Main About CSS */
 
-
+.column {
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin: auto;
+  width: 50%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    color: #d3a27f;
+    justify-content: center;
+    
+}
+.about-section {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    color: #d3a27f;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .title{
+      color: #d3a27f;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #d3a27f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button:hover {
+    background-color: #996633;
+  }
+  
 /* Footer CSS */
 footer{
     background-color: #DEC19B ;
     color: #FDFDFD;
     font-style: italic;
     font-size: 10px;
-    padding-top: 30px;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+   
 }
 .fa {
     color: #FDFDFD !important;
